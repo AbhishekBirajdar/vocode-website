@@ -5,7 +5,10 @@
   "homepage": "https://abhishekbirajdar.github.io/vocode-website/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +26,7 @@
     "@babel/preset-react": "^7.24.7",
     "babel-loader": "^9.1.3",
     "css-loader": "^7.1.2",
-    "gh-pages": "^6.1.1",
+    "gh-pages": "^5.0.0",
     "style-loader": "^4.0.0",
     "webpack": "^5.92.1",
     "webpack-cli": "^5.1.4",
