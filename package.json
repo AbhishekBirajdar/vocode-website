@@ -2,6 +2,7 @@
   "name": "vocode",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://abhishekbirajdar.github.io/vocode-website/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
